@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nonton Bareng</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎬 Your Video 🎬</h1>
+
+    <!-- Input link YouTube -->
+    <div class="input-container">
+      <input type="text" id="yt-link" placeholder="Tempel link YouTube di sini..." />
+      <button class="btn" id="play-btn">▶ Putar</button>
+    </div>
+
+    <!-- Video fullscreen -->
+    <iframe id="yt-player" src="" allowfullscreen></iframe>
+
+    <!-- Tombol subscribe notifikasi -->
+    <button class="btn" id="notif-btn">🔔 Aktifkan Notifikasi</button>
+
+    <!-- OneSignal SDK -->
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script src="script.js"></script>
+  </body>
+</html>
